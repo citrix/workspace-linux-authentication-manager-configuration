@@ -1,0 +1,11 @@
+site_name: Authentication Manager Configuration for Fast Connect Use Cases for Citrix Receiver for Linux 13.10
+site_description: Authentication Manager Configuration for Fast Connect Use Cases for Citrix Receiver for Linux 13.10
+theme_dir: citrix-sdk
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+     anchorlink: True
+pages:
+
+- Home: index.md
