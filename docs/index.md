@@ -1,8 +1,8 @@
-# Authentication Manager Configuration for Fast Connect Use Cases [Citrix Receiver for Linux 13.10]
+# Authentication Manager Configuration for Fast Connect Use Cases [Citrix Workspace app for Linux 13.10]
 
-This document describes the configuration required for the Authentication Manager (AM) component of Citrix Receiver for Linux to support Fast Connect (FC) use cases.
+This document describes the configuration required for the Authentication Manager (AM) component of Citrix Workspace app for Linux to support Fast Connect (FC) use cases.
 
-The FC use cases use APIs for Citrix Receiver for Linux in a scripted fashion to change the current user by modifying the credential in the SSO component (within AM). 
+The FC use cases use APIs for Citrix Workspace app for Linux in a scripted fashion to change the current user by modifying the credential in the SSO component (within AM). 
 AM authenticates on behalf of the Self-Service Plug-in (SSP) using Single Sign-on (SSO) protocols, where the user credentials are provided through the SSO component.
 
 Normally AM assumes a single unchanging user tied to the client desktop session, but this is not true for the FC use cases as there are multiple users. To allow the FC use cases to function correctly, some specific AM functionalities need to be enabled and other behaviours that conflict with FC need to be disabled.
@@ -11,7 +11,7 @@ Configuration for AM is done with AM’s configuration file. The appendix contai
 
 ## Component overview
 
-The SSO component of Citrix Receiver for Linux acts as a secure cache for credentials used for Single Sign-on. The FC API (libCredInject.so) stores either a username and password or a smart card PIN credential in SSO when a user is changed.
+The SSO component of Citrix Workspace app for Linux acts as a secure cache for credentials used for Single Sign-on. The FC API (libCredInject.so) stores either a username and password or a smart card PIN credential in SSO when a user is changed.
 
 The Self-Service Plugin (SSP) performs tasks with StoreFront or a Web Interface/PNA server such as enumerating a user’s applications and requesting ICA files for a launch.
 
