@@ -1,4 +1,4 @@
-# Authentication Manager Configuration for Fast Connect Use Cases [Citrix Workspace app 1809 for Linux]
+# Authentication Manager Configuration for Fast Connect Use Cases [Citrix Workspace app for Linux]
 
 This document describes the configuration required for the Authentication Manager (AM) component of Citrix Workspace app for Linux to support Fast Connect (FC) use cases.
 
