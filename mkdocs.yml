@@ -1,5 +1,5 @@
-site_name: Authentication Manager Configuration for Fast Connect Use Cases for Citrix Workspace app 1808 for Linux
-site_description: Authentication Manager Configuration for Fast Connect Use Cases for Citrix Workspace app 1808 for Linux
+site_name: Authentication Manager Configuration for Fast Connect Use Cases for Citrix Workspace app for Linux
+site_description: Authentication Manager Configuration for Fast Connect Use Cases for Citrix Workspace app for Linux
 theme_dir: citrix-sdk
 markdown_extensions:
   - admonition
